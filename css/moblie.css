@@ -1,27 +1,50 @@
-
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  /* coin */
+  #coin .coin_area .coin_img .coin_box {
+    width: 280px;
+  }
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+
+  /* coin */
+
+  #coin .coin_area {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  #coin .coin_area .coin_img {
+    width: 100%;
+  }
+
+  #coin .coin_area .coin_list {
+    width: 100%;
+
+  }
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+
+  /* coin */
+  #coin .coin_area .coin_list ul {
+    padding-left: 0;
+  }
 }
 
 
 
 /*모바일*/
 
-@media screen and (max-width:767px) {
-
-}
+@media screen and (max-width:767px) {}
 
 
 /*모바일2*/
@@ -29,19 +52,32 @@
 
 @media screen and (max-width:576px) {
 
+  /* coin */
+  .coin_img img {
+    max-width: 100%;
+  }
+
+  #coin .coin_area .coin_img .coin_box {
+    bottom: 9%;
+    left: 0%;
+}
+
+  #coin .coin_area .coin_img img.wep{
+    display: none;
+  }
+
+  #coin .coin_area .coin_img img.mov{
+    display: block;
+  }
 }
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-
-}
+@media screen and (max-width:425px) {}
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}
