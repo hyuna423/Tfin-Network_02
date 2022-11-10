@@ -1,6 +1,27 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  #Market .market {
+    padding: 5% 0;
+  }
+  #Market .market .market_img img {
+    max-width: 90%;
+  }
+  #Market .market .market_txt p {
+    font-size: 0.8em;
+  }
+  #Solution .solution .solution_txt {
+    margin-top: 4%;
+  }
+  #Solution .solution .solution_img {
+    width: 75%;
+  }
+  #Solution .solution .solution_txt p.bold {
+    padding-bottom: 2%;
+  }
+  #Solution .solution .solution_txt p.normal {
+    font-size: 0.9em;
+  }
 }
 
 
@@ -13,6 +34,32 @@
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    #Market .market {
+      align-items: center;
+      flex-direction: column;
+  }
+  #Market .market .market_txt {
+    margin: 0;
+    width: 80%;
+  }
+  #Market .market .market_img {
+    width: 80%;
+    margin-top: 5%;
+  }
+  #Solution .solution {
+    flex-direction: column;
+  }
+  #Solution .solution .solution_img img {
+    width: 90%;
+  }
+  #Solution .solution .solution_img {
+    width: 100%;
+  }
+
+  #Solution .solution .solution_txt {
+    width: 100%;
+    margin: 0% 0% 0 10%;
+  }
 }
 
 
@@ -20,7 +67,25 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
-
+  #Market .market .market_img {
+    width: 100%;
+  }
+  #Market .market .market_txt p {
+    font-size: 0.8em;
+  }
+  #Solution .solution .solution_img img {
+    display: none;
+  }
+  #Solution .solution .solution_img img.m_img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7%;
+    width: 45%;
+  }
+  #Solution .solution .solution_txt {
+    width: 90%;
+    margin: 0% 0% 0 5%;
+  }
 }
 
 
@@ -36,7 +101,12 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
-
+    #Solution .solution .solution_txt p.bold {
+      font-size: 0.9em;
+  }
+  #Solution .solution .solution_txt p.normal {
+    font-size: 0.8em;
+  }
 }
 
 

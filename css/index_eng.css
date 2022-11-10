@@ -2,8 +2,12 @@
     a{text-decoration : none;}
     address{font-style:normal;}
 
-
-
+    #Market .market .market_txt p{
+      font-weight: 400;
+    }
+    #Solution .solution .solution_txt p.bold {
+      font-weight: 500;
+    }
 
     
 /*데탑*/

@@ -23,3 +23,114 @@ h3{
 
 
 /*헤더*/
+
+/* market 시작 */
+#Market {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  position: relative;
+}
+#Market::before {
+    content: "";
+    position: absolute;
+    background: url(../img/market_bg.png) bottom no-repeat;
+    width: 100%;
+    height: 55%;
+    left: 0;
+    bottom: 0;
+    background-size: contain;
+    z-index: -1;
+}
+
+#Market .market {
+  width: 100%;
+  height: 100%;
+  padding: 5% 3%;
+  display: flex;
+}
+#Market .market .market_txt {
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 6%;
+}
+#Market .market .market_txt p{
+  font-weight: 500;
+  line-height: 1.9em;
+}
+#Market .market .market_img{
+  width: 55%;
+  height: 100%;
+  margin-right: 5%;
+  margin:0 auto;
+}
+#Market .market .market_img img {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* solution 시작 */
+#Solution {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0 0 0;
+  position: relative;
+  background: linear-gradient(180deg, #925FC2 0%, #663793 43.86%);
+  z-index: -10;
+}
+#Solution::before{
+  content: " ";
+  width: 53%;
+  height: 100%;
+  position: absolute;
+  bottom:0;
+  left: 0;
+  background:url(../img/solution_bg.png) left no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+#Solution .solution {
+  width: 100%;
+  height: 100%;
+  padding: 3% 0;
+  display: flex;
+  margin: 0;
+}
+
+#Solution .solution .solution_img{
+  width: 100%;
+  height: 100%;
+  margin-right: 4%;
+}
+#Solution .solution .solution_img img {
+  width: 100%;
+}
+#Solution .solution .solution_img img.m_img {
+  display: none;
+}
+#Solution .solution .solution_txt{
+  width: 70%;
+  margin-top: 7%;
+  color: #fff;
+}
+
+#Solution .solution .solution_txt h5 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #E2ACFF;
+}
+
+#Solution .solution .solution_txt p.bold{
+  font-weight: 900;
+  font-size: 1.1em;
+  color: #fff;
+  padding-bottom: 30px;
+}
+#Solution .solution .solution_txt p.normal{
+  font-style: normal;
+  color: #fff;
+  font-weight: 200;
+  line-height: 1.6em;
+}
