@@ -7,12 +7,60 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    /*about*/
+
+    .about_wrap h4{
+      font-size: 1.4em;
+    }
+    
+    .about_left{
+      width: 45%;
+    }
+
+    .about_left img{
+      max-width: 100%;
+    }
+
+    .about_right{
+      width: 45%;
+    }
+
+    .about_right p br{
+      display: none;
+    }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    /*about*/
+
+
+    .about_contents{
+      display: block;
+    }
+
+    .about_left{
+      width: 100%;
+    }
+
+    .about_left img{
+      max-width: 75%;
+    }
+
+    .about_right{
+      width: 100%;
+      margin-top: 10%;
+    }
+
+    .about_right p{
+      text-align: center !important;
+    }
+
+    .about_right p br{
+      display: block;
+    }
 }
 
 
@@ -21,6 +69,15 @@
 
 @media screen and (max-width:767px) {
 
+  /*about*/
+
+  .about_left img{
+    max-width: 100%;
+  }
+
+  .about_right p br{
+    display: none;
+  }
 }
 
 
