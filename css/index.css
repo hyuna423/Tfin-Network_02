@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{margin:0; padding:0; box-sizing:border-box;}
     a{text-decoration : none;}
     address{font-style:normal;}
@@ -13,6 +20,7 @@ h3{
 
 body{
   overflow-x: hidden;
+  font-family: 'SUIT-Regular';
 }
 
 @media (min-width:1521px) {
