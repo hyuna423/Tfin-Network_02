@@ -23,3 +23,28 @@ h3{
 
 
 /*헤더*/
+header{
+  width: 1521px;
+  height: 60px;
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  background: #fff;
+  border-radius: 25px;
+}
+
+header .hd_wrap{
+  width: 100%;
+}
+
+header .hd_wrap .pc-nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .hd_wrap .mb-wrap{
+  display: none;
+}
