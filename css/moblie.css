@@ -8,15 +8,6 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
-    #roadmap .roadmap_wrap .rm_txt {
-      padding-left: 20px;
-    }
-}
-
-
-
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
     #roadmap .roadmap_wrap {
       flex-direction: column;
     }
@@ -25,8 +16,17 @@
       margin-bottom: 10%;
     }
     #roadmap .roadmap_wrap .rm_txt {
-      width: 68%;
+      width: 50%;
       padding-left: 0;
+    }
+}
+
+
+
+  /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+    #roadmap .roadmap_wrap .rm_txt {
+      width: 68%;
     }
 
 
