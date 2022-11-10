@@ -22,4 +22,55 @@ h3{
 
 
 
-/*헤더*/
+
+
+/* Footer */
+
+footer {
+  background-color: #222222;
+  padding: 50px 0;
+  color: #fff;
+}
+footer .footer_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_wrap .footer_logo,
+footer .footer_wrap .footer_info {
+  width: 25%;
+}
+footer .footer_wrap .footer_contents,
+footer .footer_wrap .footer_docs {
+  width: 15%;
+}
+footer .footer_wrap .footer_info h4,
+footer .footer_wrap .footer_contents h4,
+footer .footer_wrap .footer_docs h4 {
+  font-weight: bold;
+  margin-bottom: 15%;
+}
+footer .footer_wrap .footer_info .info li {
+  margin-bottom: 10%;
+}
+footer .footer_wrap .footer_info .info li:last-child {
+  margin-bottom: 0;
+}
+footer .footer_wrap .footer_info .info li p {
+  font-size: 12px;
+}
+footer .footer_wrap .footer_info .info li p i {
+  margin-right: 5%;
+}
+footer .footer_wrap .footer_contents ul li,
+footer .footer_wrap .footer_docs ul li {
+  margin-bottom: 5%;
+}
+footer .footer_wrap .footer_contents ul li a,
+footer .footer_wrap .footer_docs ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer_wrap .footer_contents ul li a:hover
+,footer .footer_wrap .footer_docs ul li a:hover {
+  color: #B57ED3;
+}

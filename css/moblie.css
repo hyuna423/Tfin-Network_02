@@ -1,6 +1,7 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  
 }
 
 
@@ -13,6 +14,31 @@
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    footer .footer_wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+    footer .footer_wrap .footer_logo,
+    footer .footer_wrap .footer_info,
+    footer .footer_wrap .footer_contents,
+    footer .footer_wrap .footer_docs {
+      width: 90%;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+    footer .footer_wrap .footer_info h4,
+    footer .footer_wrap .footer_contents h4,
+    footer .footer_wrap .footer_docs h4 {
+      margin-bottom: 5%;
+    }
+    footer .footer_wrap .footer_info .info li,
+    footer .footer_wrap .footer_contents ul li,
+    footer .footer_wrap .footer_docs ul li {
+      margin-bottom: 3%;
+    }
+    footer .footer_wrap .footer_docs {
+      margin-bottom: 0;
+    }
 }
 
 
