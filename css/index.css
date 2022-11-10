@@ -11,6 +11,9 @@ h3{
   color: #5B5DB0;
 }
 
+body{
+  overflow-x: hidden;
+}
 
 @media (min-width:1521px) {
   .container {
@@ -297,6 +300,7 @@ input[type="checkbox"] {
   width: 100%;
   text-align:center;
   padding: 80px 0;
+  overflow: hidden;
 }
 
 .about_wrap{
