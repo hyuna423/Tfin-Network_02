@@ -1,88 +1,145 @@
-
 /*데탑*/
 @media screen and (max-width:1440px) {
 
   header .hd_all .pc_wrap ul {
     width: 80%;
-}
+  }
 
-#home .main_vid {
-  height: 100vh;
-  width: auto;
-}
+  #home .main_vid {
+    height: 100vh;
+    width: auto;
+  }
 
-#home .main_vid video {
-  position: absolute;
-  top: 0;
-  right: 50%;
-  transform: translateX(-40%);
-  height: 100%;
-  width: auto;
-  z-index: -1;
-}
+  /* coin */
+  #coin .coin_area .coin_img .coin_box {
+    width: 280px;
+  }
 
-#home h2{
-  padding-top: 12%;
-}
 
 }
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
-        /*about*/
+@media screen and (max-width:1024px) {
+  #home .main_vid video {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(-40%);
+    height: 100%;
+    width: auto;
+    z-index: -1;
+  }
 
-        .about_wrap h4{
-          font-size: 1.4em;
-        }
-        
-        .about_left{
-          width: 45%;
-        }
-    
-        .about_left img{
-          max-width: 100%;
-        }
-    
-        .about_right{
-          width: 45%;
-        }
-    
-        .about_right p br{
-          display: none;
-        }
+  #home h2 {
+    padding-top: 20%;
+  }
+
+  /*about*/
+
+  .about_wrap h4 {
+    font-size: 1.4em;
+  }
+
+  .about_left {
+    width: 45%;
+  }
+
+  .about_left img {
+    max-width: 100%;
+  }
+
+  .about_right {
+    width: 45%;
+  }
+
+  .about_right p br {
+    display: none;
+  }
+
+  /* coin */
+
+  #coin .coin_area {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  #coin .coin_area .coin_img {
+    width: 100%;
+  }
+
+  #coin .coin_area .coin_list {
+    width: 100%;
+
+  }
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
-      /*about*/
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+  /*about*/
 
 
-      .about_contents{
-        display: block;
-      }
-  
-      .about_left{
-        width: 100%;
-      }
-  
-      .about_left img{
-        max-width: 75%;
-      }
-  
-      .about_right{
-        width: 100%;
-        margin-top: 10%;
-      }
-  
-      .about_right p{
-        text-align: center !important;
-      }
-  
-      .about_right p br{
-        display: block;
-      }
+  .about_contents {
+    display: block;
+  }
+
+  .about_left {
+    width: 100%;
+  }
+
+  .about_left img {
+    max-width: 75%;
+  }
+
+  .about_right {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .about_right p {
+    text-align: center !important;
+  }
+
+  .about_right p br {
+    display: block;
+  }
+
+  /* coin */
+  #coin .coin_area .coin_list ul {
+    padding-left: 0;
+  }
+
+  /* footer */
+
+  footer .footer_wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer_wrap .footer_logo,
+  footer .footer_wrap .footer_info,
+  footer .footer_wrap .footer_contents,
+  footer .footer_wrap .footer_docs {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  footer .footer_wrap .footer_info h4,
+  footer .footer_wrap .footer_contents h4,
+  footer .footer_wrap .footer_docs h4 {
+    margin-bottom: 5%;
+  }
+
+  footer .footer_wrap .footer_info .info li,
+  footer .footer_wrap .footer_contents ul li,
+  footer .footer_wrap .footer_docs ul li {
+    margin-bottom: 3%;
+  }
+
+  footer .footer_wrap .footer_docs {
+    margin-bottom: 0;
+  }
 
 }
 
@@ -94,27 +151,28 @@
   header .hd_all .pc_wrap {
     display: none;
   }
+
   .hd_all .menu-btn {
     display: block;
   }
 
   #home .main_vid video {
     transform: translateX(-45%);
-}
+  }
 
-#home h2 {
-  padding-top: 20%;
-  font-size: 28px;
-}
+  #home h2 {
+    padding-top: 20%;
+    font-size: 28px;
+  }
 
 
   /*about*/
 
-  .about_left img{
+  .about_left img {
     max-width: 100%;
   }
 
-  .about_right p br{
+  .about_right p br {
     display: none;
   }
 
@@ -125,16 +183,33 @@
 
 
 @media screen and (max-width:576px) {
-  
+
   #home .main_vid video {
     transform: translateX(-54%);
-}
+  }
 
-#home h2 {
-  padding: 0 5%;
-  padding-top: 20%;
-}
+  #home h2 {
+    padding: 0 5%;
+    padding-top: 20%;
+  }
 
+  /* coin */
+  .coin_img img {
+    max-width: 100%;
+  }
+
+  #coin .coin_area .coin_img .coin_box {
+    bottom: 9%;
+    left: 0%;
+  }
+
+  #coin .coin_area .coin_img img.wep {
+    display: none;
+  }
+
+  #coin .coin_area .coin_img img.mov {
+    display: block;
+  }
 
 
 }
@@ -143,13 +218,9 @@
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-
-}
+@media screen and (max-width:425px) {}
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}
