@@ -3,6 +3,13 @@
     address{font-style:normal;}
 
 
+    header .hd_all .pc_wrap ul.lan li:first-child a{
+      color: #BFBFBF;
+    }
+
+    header .hd_all .pc_wrap ul.lan li:last-child a{
+      color: #222222;
+    }
 
 
     

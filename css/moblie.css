@@ -1,6 +1,28 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  header .hd_all .pc_wrap ul {
+    width: 80%;
+}
+
+#home .main_vid {
+  height: 100vh;
+  width: auto;
+}
+
+#home .main_vid video {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translateX(-40%);
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+
+#home h2{
+  padding-top: 12%;
 }
 
 
@@ -13,6 +35,7 @@
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
 }
 
 
@@ -20,6 +43,21 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  header .hd_all .pc_wrap {
+    display: none;
+  }
+  .hd_all .menu-btn {
+    display: block;
+  }
+
+  #home .main_vid video {
+    transform: translateX(-45%);
+}
+
+#home h2 {
+  padding-top: 20%;
+  font-size: 28px;
+}
 
 }
 
@@ -28,6 +66,17 @@
 
 
 @media screen and (max-width:576px) {
+  
+  #home .main_vid video {
+    transform: translateX(-54%);
+}
+
+#home h2 {
+  padding: 0 5%;
+  padding-top: 20%;
+}
+
+
 
 }
 

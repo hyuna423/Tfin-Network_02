@@ -37,52 +37,56 @@
 <body>
 
 
+  
+
   <header>
 
-    <div class="">
+    <div class="hd_all container">
 
-      <hgroup>
+      <nav class="pc_wrap">
+        <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+          <h1><a href="index.html"><img src="img/Tfin-Network_logo.png" alt="logo"></a></h1>
 
-      </hgroup>
-
-
-      <nav class="">
+        </hgroup>
         <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">T-FIN NETWORK</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+        </ul>
+        <ul class="lan">
+          <li><a href="index.html">KOR</a></li>
+          <li><span>|</span></li>
+          <li><a href="index_eng.html">ENG</a></li>
         </ul>
       </nav>
 
 
       <!--반응형-->
 
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
-      </div>
-
-      <nav class="">
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+    
+      <nav class="wrapper">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">T-FIN NETWORK</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="lan">
+            <a href="index.html">Ko
+            </a>
+          </li>
 
         </ul>
 
       </nav>
-
       <!--반응형 js-->
       <script type="text/javascript">
         $(function () {
@@ -97,6 +101,18 @@
 
   </header>
 
+
+
+  <main>
+    <section id="home">
+      <h2>TFIN NETWORK는 글로벌 유통 서비스 플랫폼으로,<br>유통시장에 새로운 시대를 열어갑니다.</h2>      
+      <div class="main_vid">
+        <video autoplay muted loop playsinline>
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+  </main>
 
 
   <script>
