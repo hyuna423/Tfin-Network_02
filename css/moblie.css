@@ -10,6 +10,34 @@
     width: auto;
   }
 
+  #Market .market {
+    padding: 5% 0;
+  }
+  #Market .market .market_img img {
+    max-width: 90%;
+  }
+  #Market .market .market_txt p {
+    font-size: 0.8em;
+  }
+
+  #Solution .solution::before {
+    width: 130%;
+    height: 130%;
+    top: -12%;
+    left: -30%;
+  }
+
+  #Solution::before {
+    left: -17%;
+  }
+
+  #Solution .solution .solution_txt p.bold {
+    padding-bottom: 2%;
+  }
+  #Solution .solution .solution_txt p.normal {
+    font-size: 0.9em;
+  }
+
   /* coin */
   #coin .coin_area .coin_img .coin_box {
     width: 280px;
@@ -56,6 +84,17 @@
     display: none;
   }
 
+  #Solution .solution::before {
+    width: 105%;
+    height: 105%;
+    top: 0%;
+    left: -18%;
+  }
+
+  #Solution .solution .solution_txt {
+    width: 50%;
+  }
+
   /* coin */
 
   #coin .coin_area {
@@ -70,6 +109,23 @@
   #coin .coin_area .coin_list {
     width: 100%;
 
+  }
+
+  #Solution .solution .solution_img {
+    top: 3%;
+    left:-25%;
+}
+
+  #roadmap .roadmap_wrap {
+    flex-direction: column;
+  }
+  #roadmap .roadmap_wrap .rm_img {
+    width: 90%;
+    margin-bottom: 10%;
+  }
+  #roadmap .roadmap_wrap .rm_txt {
+    width: 50%;
+    padding-left: 0;
   }
 }
 
@@ -105,10 +161,51 @@
     display: block;
   }
 
+  #Market .market {
+    align-items: center;
+    flex-direction: column;
+}
+#Market .market .market_txt {
+  margin: 0;
+  width: 80%;
+}
+#Market .market .market_img {
+  width: 80%;
+  margin-top: 5%;
+}
+#Solution .solution {
+  flex-direction: column;
+  height:100%;
+}
+
+
+#Solution .solution .solution_txt {
+  width: 100%;
+  margin-top: 70%;
+}
+
+#Solution .solution::before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#Solution::before {
+  width: 100%;
+  height: 100%;
+}
+
   /* coin */
   #coin .coin_area .coin_list ul {
     padding-left: 0;
   }
+
+  #roadmap .roadmap_wrap .rm_txt {
+    width: 68%;
+  }
+
 
   /* footer */
 
@@ -176,6 +273,20 @@
     display: none;
   }
 
+  #Market .market .market_img {
+    width: 100%;
+  }
+  #Market .market .market_txt p {
+    font-size: 0.8em;
+  }
+
+  #roadmap .roadmap_wrap .rm_img {
+    width: 100%;
+  }
+  #roadmap .roadmap_wrap .rm_txt {
+    width: 90%;
+  }
+
 }
 
 
@@ -192,6 +303,19 @@
     padding: 0 5%;
     padding-top: 20%;
   }
+
+  #Solution .solution::before {
+    background:url(../img/solution_m.png)no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 100%;
+
+  }
+
+  #Solution .solution .solution_txt {
+    width: 90%;
+    margin-top: 140%;
+}
 
   /* coin */
   .coin_img img {
@@ -218,9 +342,28 @@
 
 /*모바일3 갤럭시*/
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+  #Solution .solution .solution_txt p.bold {
+    font-size: 0.9em;
+}
+#Solution .solution .solution_txt p.normal {
+  font-size: 0.8em;
+}
+
+#Solution .solution::before {
+  width: 80%;
+}
+
+#Solution .solution .solution_txt {
+margin-top: 125%;
+}
+}
 
 
 
 /*모바일4 아이폰*/
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+  #roadmap .roadmap_wrap .rm_txt {
+    width: 100%;
+  }
+}

@@ -11,21 +11,50 @@
       color: #222222;
     }
 
+    #Market .market .market_txt p{
+      font-weight: 400;
+    }
+    #Solution .solution .solution_txt p.bold {
+      font-weight: 500;
+    }
+
+
     
 /*데탑*/
 @media screen and (max-width:1440px) {
+  #Solution .solution .solution_txt {
+    width: 50%;
+  }
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    #Solution .solution::before {
+      width: 100%;
+      height: 100%;
+      top: 8%;
+      left: -20%;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    #Solution .solution::before {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  #Solution .solution .solution_txt {
+    width: 90%;
+}
 }
 
 
@@ -42,6 +71,9 @@
 
 @media screen and (max-width:576px) {
 
+  #Solution .solution::before {
+    width: 90%;
+  }
 }
 
 
@@ -50,6 +82,13 @@
 
   @media screen and (max-width:425px) {
 
+    #Solution .solution::before {
+      width: 80%;
+  }
+
+  #Solution .solution .solution_txt {
+    margin-top: 125%;
+}
 }
 
 
